@@ -1,0 +1,92 @@
+.container {
+    margin: 100px auto;
+    width: 500px;
+    padding: 20px;
+    background-color: #b0e0e6;
+    border-radius: 10px;
+}
+
+#add {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-bottom: 10px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+button#add-todo-button {
+    transform: translateY(30px);
+    height: 40px;
+    width: 60px;
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    background-color: #318ce7;
+    border-color: #318ce7;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button.remove {
+    transform: translateY(5px);
+    height: 40px;
+    width: 85px;
+    border-radius: 100%;
+    margin: 0;
+    display: inline-flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    align-items: center;
+    vertical-align: bottom;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 0.4rem 1rem;
+    background-color:#FF9999;
+    border-color: #FF9999;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.todo {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-column-gap: 5px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #eaeaea;
+}
+
+.todo-value {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #eaeaea;
+    outline: 2px solid #eaeaea;
+    margin-top: 10px;
+}
